@@ -19,11 +19,11 @@
         createTime,updateTime
     </sql>
 
-    <select id="listFavourPostByPage"
-            resultType="com.xq.mianshiya.model.entity.Post">
-        select p.*
-        from post p
-                 join (select postId from post_favour where userId = #{favourUserId}) pf
-                      on p.id = pf.postId ${ew.customSqlSegment}
-    </select>
+<!--    <select id="listFavourPostByPage"-->
+<!--            resultType="com.xq.mianshiya.model.entity.Post">-->
+<!--        select p.*-->
+<!--        from post p-->
+<!--                 join (select postId from post_favour where userId = #{favourUserId}) pf-->
+<!--                      on p.id = pf.postId ${ew.customSqlSegment}-->
+<!--    </select>-->
 </mapper>

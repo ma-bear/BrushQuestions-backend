@@ -25,9 +25,9 @@
         createTime,updateTime,isDelete
     </sql>
 
-    <select id="listPostWithDelete" resultType="com.xq.mianshiya.model.entity.Post">
-        select *
-        from post
-        where updateTime >= #{minUpdateTime}
-    </select>
+<!--    <select id="listPostWithDelete" resultType="com.xq.mianshiya.model.entity.Post">-->
+<!--        select *-->
+<!--        from post-->
+<!--        where updateTime >= #{minUpdateTime}-->
+<!--    </select>-->
 </mapper>

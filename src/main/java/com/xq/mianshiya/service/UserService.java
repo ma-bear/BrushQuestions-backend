@@ -1,15 +1,16 @@
 package com.xq.mianshiya.service;
 
+
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.xq.mianshiya.model.dto.user.UserQueryRequest;
 import com.xq.mianshiya.model.entity.User;
 import com.xq.mianshiya.model.vo.LoginUserVO;
 import com.xq.mianshiya.model.vo.UserVO;
-
-import java.util.List;
-import javax.servlet.http.HttpServletRequest;
 import me.chanjar.weixin.common.bean.WxOAuth2UserInfo;
+
+import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 /**
  * 用户服务
